@@ -1,0 +1,10 @@
+name: Testing Actions Limits
+on:
+  push:
+    paths:
+      - 'file-3200'
+jobs:
+  sayhello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hello world
